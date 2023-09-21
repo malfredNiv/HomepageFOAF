@@ -5,7 +5,7 @@
   <foaf:Person rdf:about="#marie">
     <foaf:name>Marie Nivet</foaf:name>
     <foaf:age>22</foaf:age>
-    <foaf:homepage rdf:resource="/Users/marienivet/Downloads/TD_TP1_WebSemantique/homepage.html"/>
+    <foaf:homepage rdf:resource="/index.html"/>
     <foaf:interest>
       <rdf:Bag>
         <rdf:li>sport</rdf:li>
