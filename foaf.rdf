@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+  <foaf:Person rdf:about="#marie">
+    <foaf:name>Marie Nivet</foaf:name>
+    <foaf:age>22</foaf:age>
+    <foaf:homepage rdf:resource="/Users/marienivet/Downloads/TD_TP1_WebSemantique/homepage.html"/>
+    <foaf:interest>
+      <rdf:Bag>
+        <rdf:li>sport</rdf:li>
+        <rdf:li>cuisine</rdf:li>
+      </rdf:Bag>
+    </foaf:interest>
+  </foaf:Person>
+  
+  <foaf:Person rdf:about="#nyx">
+    <foaf:name>Nyx</foaf:name>
+    <foaf:species>Cat</foaf:species>
+  </foaf:Person>
+
+</rdf:RDF>
