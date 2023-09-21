@@ -1,0 +1,62 @@
+/* Style de base pour la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+}
+
+/* Style pour le lien du profil FOAF */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+/* Style pour le lien du profil FOAF dans une nouvelle fenêtre */
+a[target="_blank"]::after {
+    content: " (nouvelle fenêtre)";
+    font-size: 14px;
+    color: #999;
+}
+
+/* Style pour le lien vers le fichier FOAF RDF */
+.link-foaf {
+    margin-top: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.link-foaf:hover {
+    text-decoration: underline;
+}
