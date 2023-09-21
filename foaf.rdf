@@ -18,6 +18,13 @@
   <foaf:Person rdf:about="#nyx">
     <foaf:name>Nyx</foaf:name>
     <foaf:species>Cat</foaf:species>
+    <foaf:age>1</foaf:age>
+    <foaf:interest>
+      <rdf:Bag>
+        <rdf:li>Miaulier</rdf:li>
+        <rdf:li>Manger</rdf:li>
+      </rdf:Bag>
+    </foaf:interest>
     <foaf:homepage rdf:resource="https://malfredniv.github.io/HomepageFOAF/"/>
 
   </foaf:Person>
