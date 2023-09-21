@@ -6,7 +6,7 @@
   <foaf:Person rdf:about="#marie">
     <foaf:name>Marie Nivet</foaf:name>
     <foaf:age>22</foaf:age>
-    <foaf:homepage rdf:resource="/index.html"/>
+    <foaf:homepage rdf:resource="https://malfredniv.github.io/HomepageFOAF/"/>
     <foaf:interest>
       <rdf:Bag>
         <rdf:li>sport</rdf:li>
