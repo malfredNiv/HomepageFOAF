@@ -21,7 +21,7 @@
     <foaf:age>1</foaf:age>
     <foaf:interest>
       <rdf:Bag>
-        <rdf:li>Miaulier</rdf:li>
+        <rdf:li>Miauler</rdf:li>
         <rdf:li>Manger</rdf:li>
       </rdf:Bag>
     </foaf:interest>
